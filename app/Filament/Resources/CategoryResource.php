@@ -28,8 +28,8 @@ class CategoryResource extends Resource
 {
     protected static ?string $model = Category::class;
 
-    protected static ?string $navigationGroup = 'eCommerce';
-
+    protected static ?string $navigationGroup = 'Shop';
+    protected static ?int $navigationSort = 2;
 
     protected static ?string $navigationIcon = 'heroicon-o-tag';
 

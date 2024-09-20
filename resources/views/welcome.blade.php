@@ -52,6 +52,7 @@
                                 @endauth
                             </nav>
                         @endif
+
                     </header>
 
                     <main class="mt-6">

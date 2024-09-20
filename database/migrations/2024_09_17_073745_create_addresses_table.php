@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('zip_code')->nullable();
             $table->timestamps();
         });
+
     }
 
     /**

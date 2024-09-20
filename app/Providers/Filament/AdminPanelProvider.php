@@ -27,6 +27,10 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->profile()
+            ->brandName('Bizz - eCommerce | neodigital.pro')
+            ->brandLogo(asset('storage/logo/bizz.svg'))
+            ->brandLogoHeight('2.5rem')
+            ->favicon(asset('storage/logo/bizz-logo.png'))
             ->login()
             ->colors([
                 'primary' => Color::Amber,
